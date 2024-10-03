@@ -1,0 +1,18 @@
+memory:
+  long_term_storage_path: 'data/long_term_memory.json'
+  short_term_capacity: 100
+
+model:
+  name: 'gpt2'
+  max_length: 150
+  temperature: 0.7
+  top_k: 50
+  top_p: 0.95
+
+nlp:
+  lowercase: true
+  remove_punctuation: false
+
+logging:
+  level: 'INFO'
+  file: 'logs/letta.log'
